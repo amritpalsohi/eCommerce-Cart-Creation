@@ -1,0 +1,6 @@
+{
+    "items": [
+        {"id": 1, "unitPrice": -10, "quantity": 5},
+        {"id": 2, "unitPrice": 20, "quantity": -10}
+    ]
+}

@@ -1,0 +1,1 @@
+2026-02-21 01:01:10,117 | INFO | tests.api.test_cart_api | [{'id': 1, 'unitPrice': 10, 'quantity': 5}, {'id': 2, 'unitPrice': 20, 'quantity': 10}]
