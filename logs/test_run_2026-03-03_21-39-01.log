@@ -1,0 +1,2 @@
+2026-03-03 21:39:22,030 | INFO | tests.api.test_cart_api | Response Body: {'message': 'Invalid item price or quantity'}
+2026-03-03 21:39:22,042 | INFO | tests.api.test_cart_api | Response Body: {'message': 'Items field is required'}

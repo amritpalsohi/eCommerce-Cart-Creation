@@ -32,4 +32,4 @@ class ApiClient:
         :return: Playwright response object
         """
         
-        return self.request.post("/cart", data=payload)
+        return self.request.post("/cart", data=payload, headers={"Content-Type": "application/json"})

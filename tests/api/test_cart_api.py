@@ -43,11 +43,11 @@ def test_create_cart_positive(api_request_context):
 
     assert "totalPrice" in body
 
-    with open("tests/data/expected_data.json") as f:
-        expected = json.load(f)
-
     # Validate total price returned in response
-    assert body["totalPrice"] == expected["totalPrice"]
+    total_price = 0
+    for item in payload["items"]:
+        total_price += item["unitPrice"] * item["quantity"]
+    assert body["totalPrice"] == total_price
 
 def test_create_cart_negative(api_request_context):
     """
