@@ -1,4 +1,4 @@
-DEBUG    asyncio:proactor_events.py:634 Using proactor: IocpProactor
+DEBUG    asyncio:proactor_events.py:633 Using proactor: IocpProactor
 INFO     tests.api.test_cart_api:test_cart_api.py:38 {'items': [{'id': 1, 'unitPrice': 10, 'quantity': 5}, {'id': 2, 'unitPrice': 20, 'quantity': 10}], 'totalPrice': 250}
 INFO     tests.api.test_cart_api:test_cart_api.py:68 Response Body: {'message': 'Invalid item price or quantity'}
 INFO     tests.api.test_cart_api:test_cart_api.py:87 Response Body: {'message': 'Items field is required'}
